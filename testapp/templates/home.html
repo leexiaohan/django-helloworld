@@ -1,0 +1,6 @@
+<ul>
+{% for site in site_list %}
+    <li>{{ site.name }}</li>
+{% endfor %}
+</ul>
+<a href="{% url 'add' 4 5 %}">this is the link</a>
